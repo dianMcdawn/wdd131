@@ -88,42 +88,25 @@ main h1 {
     border-radius: 1rem 1rem 0 0;
 }
 
-main .main-content {
+main .card {
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding: 1rem;
+    justify-items: center;
+    align-items: center;
 }
 
-main .main-content p {
+main .card p {
     grid-column: 1/2;
     padding: 1rem;
     text-justify: justify;
 }
 
-main .main-content img {
+main .card img {
     grid-column: 2/3;
     height: 200px;
     width: auto;
     padding: 1rem;
-}
-
-main .main-content2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 1rem;
-}
-
-main .main-content2 img {
-    grid-column: 1/2;
-    height: auto;
-    width: 200px;
-    padding: 1rem;
-}
-
-main .main-content2 p {
-    grid-column: 2/3;
-    padding: 1rem;
-    text-justify: justify;
 }
 
 /* Aside Class */

@@ -8,7 +8,7 @@
     <meta name="author" content="Patricio Henriquez">
     <title>WDD 131 | Basic Layout</title>
     <link rel="stylesheet" href="styles/basic.css">
-    <script src="scripts/getdates.js"></script>
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
@@ -24,20 +24,25 @@
     </header>
     <main>
         <h1>Main Content</h1>
-        <div class="main-content">
-            <p>My name is Patricio, but people call me Pato. I was born in Talcahuano, Chile, and i have lived in many
+        <section class="card">
+            <p>My name is Patricio, but people call me Pato. I was born in <a
+                    href="https://en.wikipedia.org/wiki/Talcahuano" target="_blank">Talcahuano</a>, Chile, and i have
+                lived in many
                 places over my country. I am currently working as IT Manager and i'm the main programmer of the company.
                 I'm
                 married and I love spend my free time with my wife, playing video games o enjoying a good day walk.</p>
             <img src="images/phm.jpg" />
-        </div>
-        <div class="main-content2">
-            <p>Chile, officially the Republic of Chile, is a country in western South America. It is the southernmost
+        </section>
+        <section class="card">
+
+            <p><a href="https://en.wikipedia.org/wiki/Chile" target="_blank">Chile</a>, officially the Republic of
+                Chile, is a country
+                in western South America. It is the southernmost
                 country in the world and the closest to Antarctica, stretching along a narrow strip of land between the
                 Andes Mountains and the Pacific Ocean. Chile had a population of 17.5 million as of the latest census in
-                2017 and has a territorial area of 756,102 square kilometers (291,933 sq mi),</p>
+                2017 and has a territorial area of 756,102 square kilometers (291,933 sq mi).</p>
             <img src="images/chile.png" />
-        </div>
+        </section>
     </main>
     <aside>
         <h1>Aside Content</h1>
@@ -46,8 +51,8 @@
         </div>
     </aside>
     <footer>
-        <p>@2024 🐠 Chile 🐠 | 🦆 Patricio Henriquez 🦆</p>
-        <p><span id="currentyear"></span></p>
+        <p>@<span id="currentyear"></span> 🐠 Talcahuano, Chile 🐠 | 🦆 Patricio Henriquez 🦆</p>
+        <p>Last Modification <span id="lastModified"></span></p>
     </footer>
 </body>
 
