@@ -12,6 +12,8 @@
     --secondary-font-color: #7b7b7b;
     --thirdiary-font-color: #4c4c4c;
     --default-font-color: #ffffff;
+
+    --main-green: #0a7823;
 }
 
 * {
@@ -36,7 +38,7 @@ header {
 }
 
 header h1 {
-    background: var(--secondary-color);
+    background: var(--main-green);
     color: var(--default-font-color);
     padding: 2rem;
     order: 1;
@@ -67,34 +69,49 @@ header nav a {
 
 /* Main Class */
 main {
-    background: var(--thirdiary-color);
-    color: var(--thirdiary-font-color);
     position: relative;
     height: 500px;
     overflow: hidden;
     grid-row: 2/3;
     grid-column: 1/2;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--secondary-color);
 }
 
 main h1 {
     position: absolute;
-    color: var(--secondary-color);
+    background: var(--main-green);
+    color: var(--default-font-color);
     width: 100%;
     text-align: left;
+    margin-top: 0;
+    padding: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
 }
 
 /* Aside Class */
 aside {
-    float: relative;
+    position: relative;
     height: 500px;
+    overflow: hidden;
     grid-row: 2/3;
     grid-column: 2/3;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--secondary-color);
 }
 
 aside h1 {
     position: absolute;
-    color: var(--primary-color);
+    background: var(--main-green);
+    color: var(--default-font-color);
     width: 100%;
+    text-align: left;
+    margin-top: 0;
+    padding: 1rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 
