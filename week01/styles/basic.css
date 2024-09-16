@@ -69,9 +69,6 @@ header nav a {
 
 /* Main Class */
 main {
-    position: relative;
-    height: 500px;
-    overflow: hidden;
     grid-row: 2/3;
     grid-column: 1/2;
     margin: 1rem;
@@ -80,21 +77,59 @@ main {
 }
 
 main h1 {
-    position: absolute;
     background: var(--main-green);
     color: var(--default-font-color);
     width: 100%;
     text-align: left;
     margin-top: 0;
-    padding: 1rem;
+    padding: 1rem 0 1rem 0;
     font-size: 1.4rem;
     text-align: center;
+    border-radius: 1rem 1rem 0 0;
+}
+
+main .main-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 1rem;
+}
+
+main .main-content p {
+    grid-column: 1/2;
+    padding: 1rem;
+    text-justify: justify;
+}
+
+main .main-content img {
+    grid-column: 2/3;
+    height: 200px;
+    width: auto;
+    padding: 1rem;
+}
+
+main .main-content2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+main .main-content2 img {
+    grid-column: 1/2;
+    height: auto;
+    width: 200px;
+    padding: 1rem;
+}
+
+main .main-content2 p {
+    grid-column: 2/3;
+    padding: 1rem;
+    text-justify: justify;
 }
 
 /* Aside Class */
 aside {
     position: relative;
-    height: 500px;
+    height: auto;
     overflow: hidden;
     grid-row: 2/3;
     grid-column: 2/3;
@@ -113,6 +148,7 @@ aside h1 {
     padding: 1rem;
     font-size: 1.4rem;
     text-align: center;
+    border-radius: 1rem 1rem 0 0;
 }
 
 /* FOOTER */
