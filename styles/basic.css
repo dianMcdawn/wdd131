@@ -126,7 +126,7 @@ aside {
     border: 1px solid var(--secondary-color);
 }
 
-aside h1 {
+aside h2 {
     position: absolute;
     background: var(--main-green);
     color: var(--default-font-color);
