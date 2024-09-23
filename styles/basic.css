@@ -63,6 +63,11 @@ header nav a {
     display: block;
 }
 
+header nav a:hover {
+    color: var(--thirdiary-color);
+    background: var(--thirdiary-font-color);
+}
+
 /* ******* */
 /* CLASSES */
 /* ******* */
@@ -74,6 +79,7 @@ main {
     margin: 1rem;
     border-radius: 1rem;
     border: 1px solid var(--secondary-color);
+    max-width: 100%;
 }
 
 main h1 {
