@@ -146,6 +146,17 @@ aside h2 {
     border-radius: 1rem 1rem 0 0;
 }
 
+aside ul {
+    padding-top: 5rem;
+    list-style-type: circle;
+    color: var(--default-font-color);
+}
+
+aside li {
+    color: var(--default-font-color);
+    padding: 0.5rem;
+}
+
 /* FOOTER */
 
 footer {
