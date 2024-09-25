@@ -2,11 +2,12 @@
 //Cosntant Variables
 const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
-const list = document.querySelector('list');
+const list = document.querySelector('#list');
 //Consant creating element
 const li = document.createElement('li');
 const deleteButton = document.createElement('button');
 
+//When add button is clicked
 button.addEventListener('click', function () {
     // Code to execute when the button is clicked
     if (input.value.trim() !== '') {
