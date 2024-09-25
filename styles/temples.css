@@ -105,7 +105,7 @@ main {
     padding: 0 15% 0 15%;
 }
 
-main h2 {
+h2 {
     text-align: center;
 }
 
@@ -116,11 +116,11 @@ main h2 {
     place-items: center;
 }
 
-.album figure img {
+figure img {
     max-width: 250px;
 }
 
-.album figure figcaption {
+figure figcaption {
     text-align: center;
 }
 
