@@ -60,7 +60,7 @@ nav {
 }
 
 .navigation a {
-    color: var(--nav-link-color);
+    color: var(--default-font-color);
     text-decoration: none;
     display: block;
     padding: 1.2rem;
