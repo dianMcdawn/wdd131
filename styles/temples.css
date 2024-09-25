@@ -124,9 +124,7 @@ main {
 footer {
     background: var(--primary-color);
     color: var(--default-font-color);
-    grid-row: 3/4;
-    grid-column: 1/3;
-    padding: 1rem;
+    padding: .5rem;
 }
 
 footer P {
