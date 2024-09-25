@@ -26,11 +26,11 @@ body {
 header {
     background-color: var(--primary-color);
     color: var(--default-font-color);
-    align-items: center;
     padding: 0 1rem 0 2rem;
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    align-items: center;
 }
 
 h1 {
@@ -59,14 +59,14 @@ nav {
 }
 
 .navigation a {
-    color: var(--default-font-color);
-    text-decoration: none;
     display: block;
+    color: var(--default-font-color);
     padding: 1.2rem;
     font-weight: 700;
-    transition: 0.5s;
-    text-align: right;
     font-size: clamp(1rem, 2vmin, 1.5rem);
+    text-align: right;
+    text-decoration: none;
+    transition: 0.5s;
 }
 
 .navigation a:hover {
