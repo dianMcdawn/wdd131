@@ -9,7 +9,6 @@
     <title>WDD 131 - Picture Album - Patricio Henriquez</title>
     <link rel="stylesheet" href="styles/temples.css">
     <link rel="stylesheet" href="styles/temples-large.css">
-    <script src="scripts/getdates.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,25 +18,69 @@
 <body>
     <header>
         <h1>Temple Album</h1>
-        <nav>
-            <a href="temple.html" target="_blank">Home</a>
-            <a href="#">Old</a>
-            <a href="#">New</a>
-            <a href="#">Large</a>
-            <a href="#">Small</a>
-        </nav>
+        <div class="nav">
+            <a id="menu" href="#"></a>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="temple.html">Home</a></li>
+                    <li><a href="#">Old</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Large</a></li>
+                    <li><a href="#">Small</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <h2>Home</h2>
-        <figure>
-            <img src="temples/santiago.jpg" alt="Santiago, Chile">
-            <figcaption>Fig.1 - Santiago, Chile.</figcaption>
-        </figure>
+        <div class="album">
+            <figure>
+                <img src="images/temples/santiago.jpg" alt="Santiago, Chile">
+                <figcaption>Fig.1 - Santiago, Chile.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temples/concepcion.jpg" alt="Concepci&oacute;n, Chile">
+                <figcaption>Fig.2 - Concepci&oacute;n, Chile.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temples/antofagasta.jpg" alt="Antofagasta, Chile">
+                <figcaption>Fig.3 - Antofagasta, Chile.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/temples/santiago-oeste.jpg" alt="Santiago Oeste, Chile">
+                <figcaption>Fig.4 - Santiago Oeste, Chile.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temples/kirtland.jpg" alt="Kirtland, Chile">
+                <figcaption>Fig.5 - Kirtland, Ohio.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temples/navoo.jpg" alt="Navoo, Illinois">
+                <figcaption>Fig.6 - Navoo, Illinois.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/temples/salt-lake.jpg" alt="Salt Lake City, Utah">
+                <figcaption>Fig.7 - Salt Lake City, Utah.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temples/paraguay.jpg" alt="Asuncion, Paraguay">
+                <figcaption>Fig.8 - Asuncion, Paraguay.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temples/buenos-aires.jpg" alt="Buenos Aires, Argentina">
+                <figcaption>Fig.9 - Buenos Aires, Argentina.</figcaption>
+            </figure>
+        </div>
     </main>
     <footer>
         <p>@<span id="currentyear"></span> 🐠 Talcahuano, Chile 🐠 | 🦆 Patricio Henriquez 🦆</p>
         <p>Last Modification <span id="lastModified"></span></p>
     </footer>
+
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/temples.js" defer></script>
 </body>
 
 </html>

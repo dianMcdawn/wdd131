@@ -1,0 +1,15 @@
+@media only screen and (min-width: 40em) {
+	header .navigation {
+		display: flex;
+	}
+	header .navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	header .navigation a {
+		text-align: right;
+	}
+	#menu {
+		display: none;
+	}
+}
