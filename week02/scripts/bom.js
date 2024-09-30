@@ -11,7 +11,7 @@ const deleteButton = document.createElement('button');
 button.addEventListener('click', function () {
     // Code to execute when the button is clicked
     if (input.value.trim() !== '') {
-        li.textContent = input.value;
+        li.textContent  = input.value;
         deleteButton.textContent = '❌';
         li.append(deleteButton);
         list.append(li);
