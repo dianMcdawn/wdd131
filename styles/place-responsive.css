@@ -1,10 +1,13 @@
 @media screen and (max-width: 600px) {
+    body {
+        padding: 0 1rem;
+    }
     .data {
         background-color: #fff;
         position: static;
         top: 0;
         left: 0;
-        width: 100%
+        max-width: none;
     }
     .data h2 {
         color: #000;
@@ -17,12 +20,27 @@
         position: static;
         bottom: 0;
         right: 0;
-        width: 100%
+        max-width: none;
     }
-    .weather h2 {
+    .weather .weather-div {
         color: #000;
         background: transparent;
+        display: block;
+    }
+    .weather h2 {
         margin: 0;
         text-align: center;
+
     }
+    .weather h2::after {
+        content: "";
+    }
+    .weather img {
+        display: block;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
 }
