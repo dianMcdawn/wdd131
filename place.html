@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/place.css">
     <link rel="stylesheet" href="styles/place-responsive.css">
     <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/place.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,21 +31,35 @@
         </div>
         <div class="data">
             <h2>Data</h2>
-            <p class="data-label-left">Area:</p> <p class="data-label-right"> 783,562 sq km</p>
-            <p class="data-label-left">Population:</p> <p class="data-label-right">85,372,377</p>
-            <p class="data-label-left">Capital:</p> <p class="data-label-right">Ankara</p>
-            <p class="data-label-left">Languages:</p> <p class="data-label-right">Turkish</p>
-            <p class="data-label-left">Currency:</p> <p class="data-label-right">Turkish lira (₺) (TRY)</p>
-            <p class="data-label-left">Time Zone:</p> <p class="data-label-right">UTC+3 (TRT)</p>
-            <p class="data-label-left">Calling Code:</p> <p class="data-label-right">+90m</p>
-            <p class="data-label-left">Internet TLD:</p> <p class="data-label-right">.tr</p>
+            <p class="data-label-left">Area:</p>
+            <p class="data-label-right"> 783,562 sq km</p>
+            <p class="data-label-left">Population:</p>
+            <p class="data-label-right">85,372,377</p>
+            <p class="data-label-left">Capital:</p>
+            <p class="data-label-right">Ankara</p>
+            <p class="data-label-left">Languages:</p>
+            <p class="data-label-right">Turkish</p>
+            <p class="data-label-left">Currency:</p>
+            <p class="data-label-right">Turkish lira (₺) (TRY)</p>
+            <p class="data-label-left">Time Zone:</p>
+            <p class="data-label-right">UTC+3 (TRT)</p>
+            <p class="data-label-left">Calling Code:</p>
+            <p class="data-label-right">+90m</p>
+            <p class="data-label-left">Internet TLD:</p>
+            <p class="data-label-right">.tr</p>
         </div>
         <div class="weather">
-            <div class="weather-div"><h2>Weather</h2><img src="images/weather/clouds_sun_sunny_icon.svg"></div>
-            <p class="weather-label-left">Temperature:</p> <p class="weather-label-right"> 10 ºC</p>
-            <p class="weather-label-left">Conditions:</p> <p class="weather-label-right">Partly Cloudy</p>
-            <p class="weather-label-left">Wind:</p> <p class="weather-label-right">5 km/h</p>
-            <p class="weather-label-left">Wind Chill:</p> <p class="weather-label-right">0.8 ºC</p>
+            <div class="weather-div">
+                <h2>Weather</h2><img src="images/weather/clouds_sun_sunny_icon.svg">
+            </div>
+            <p class="weather-label-left">Temperature:</p>
+            <p class="weather-label-right" id="temperature"></p>
+            <p class="weather-label-left">Conditions:</p>
+            <p class="weather-label-right" id="conditions">Partly Cloudy</p>
+            <p class="weather-label-left">Wind:</p>
+            <p class="weather-label-right" id="windspeed"></p>
+            <p class="weather-label-left">Wind Chill:</p>
+            <p class="weather-label-right" id="windchill">0.8 ºC</p>
         </div>
     </main>
     <footer>
