@@ -41,7 +41,7 @@ h1 {
     top: 25%;
     left: 7%;
     order: 2;
-    max-width: 300px;
+    max-width: 500px;
     background: #f7f8db;
     opacity: 0.8;
     padding: 1rem;
@@ -63,11 +63,13 @@ h1 {
     grid-column: 1/2;
     text-align: right;
     font-weight: bold;
+    padding-right: .1rem;
 }
 
 .data .data-label-right {
     grid-column: 2/3;
     text-align: left;
+    padding-left: .1rem;
 }
 
 .weather {
@@ -75,7 +77,7 @@ h1 {
     bottom: 5%;
     right: 7%;
     order: 2;
-    max-width: 300px;
+    max-width: 500px;
     background: #f7f8db;
     opacity: 0.8;
     padding: 1rem;
@@ -115,11 +117,13 @@ h1 {
     grid-column: 1/2;
     text-align: right;
     font-weight: bold;
+    padding-right: .1rem;
 }
 
 .weather .weather-label-right {
     grid-column: 2/3;
     text-align: left;
+    padding-left: .1rem;
 }
 
 footer {
