@@ -145,11 +145,7 @@ function renderSmallTemples(temples) {
 }
 
 //Showing results of array
-//renderAllTemples(temples);
-//renderOldTemples(temples);
-//renderNewTemples(temples);
-//renderLargeTemples(temples);
-//renderSmallTemples(temples);
+renderAllTemples(temples);
 
 //Some actions
 
