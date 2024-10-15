@@ -37,7 +37,7 @@ function mapingProduct(product) {
 
 //Templating all product
 function renderAllProducts(products) {
-    const start = `<option value="0" selected disabled>Select a Product...</option>`;
+    const start = `<option value="" selected disabled>Select a Product...</option>`;
 	const html = products.map(mapingProduct);
 	selectProduct.innerHTML = start.concat(html.join(""));
 }
