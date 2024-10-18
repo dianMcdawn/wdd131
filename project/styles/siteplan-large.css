@@ -1,0 +1,8 @@
+@media only screen and (min-width: 40em) {
+    body {
+        padding: 0 10rem;
+    }
+    main {
+        padding: 2rem;
+    }
+}
