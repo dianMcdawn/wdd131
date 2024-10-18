@@ -84,11 +84,21 @@ main {
 
 main h3 {
     text-decoration: underline;
-    font-weight:bold;
+    font-weight: bold;
 }
 
-.main-question{
-    font-weight:bold;
+.main-question {
+    font-weight: bold;
+}
+
+.main-color {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    background-color: var(--main-color);
+    color: var(--default-font-color);
+    border: 1px solid #000;
+    padding: 0 1rem;
 }
 
 /* FOOTER */

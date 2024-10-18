@@ -46,7 +46,7 @@
         </div>
         <h3>Color Schema</h3>
         <div class="main-content">
-            <p class="main-response">Main Color: #207888</p>
+            <p class="main-response">Main Color: <span class="main-color">#207888</span></p>
         </div>
         <h3>Typography</h3>
         <div class="main-content">
@@ -55,7 +55,13 @@
         </div>
         <h3>Wireframe</h3>
         <div class="main-content">
-            <p class="main-response"></p>
+            <div class="main-response">
+                <picture>
+                    <source srcset="images/wireframe-large.webp" media="(min-width: 1000px)">
+                    <source srcset="images/wireframe-medium.webp" media="(min-width: 750)">
+                    <img src="images/wireframe-small.webp" alt="Orange Cat" width="500" height="1000">
+                </picture>
+            </div>
         </div>
     </main>
 
