@@ -101,6 +101,11 @@ main h3 {
     padding: 0 1rem;
 }
 
+.main-picture {
+    display: flex;
+    justify-content: center;
+}
+
 /* FOOTER */
 
 footer {
