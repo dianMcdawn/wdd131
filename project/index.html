@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta name="description" content="WDD 131 | Site Plan Project">
+    <meta name="description" content="WDD 131 | Project">
     <meta name="author" content="Patricio Henriquez">
     <title>P.A.H.M. Tech - Digital solutions</title>
     <link rel="stylesheet" href="styles/siteplan.css">
@@ -46,15 +46,40 @@
                 <p id="advanced">Advanced</p>
                 <p id="full">Full</p>
             </div>
-            <!--<ul class="services-filter">
-                <li><a href="#" id="all">All</a></li>
-                <li><a href="#" id="simples">Simples</a></li>
-                <li><a href="#" id="advanced">Advanced</a></li>
-                <li><a href="#" id="full">Full</a></li>
-            </ul>-->
             <div id="services" class="services"></div>
         </div>
-
+        <div class="contact">
+            <h2>Contact me</h2>
+            <div class="contact-content">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d705.2134735761394!2d-67.0753856917469!3d-55.08265615236905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20map%20html!5e0!3m2!1ses!2scl!4v1729520973057!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form class="contact-form" action="sended.html" method="get">
+                <div class="form-element">
+                    <label for="name" class="title-label">Your Name: </label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-element">
+                    <label for="email" class="title-label">Your email: </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-element">
+                    <label for="review" class="title-label">Write us a message</span>:
+                    </label>
+                    <textarea id="review" name="review"></textarea>
+                </div>
+                <div class="form-element">
+                 <label class="title-label">Wich services you are intereset in? <span
+                                class="check-apply">(Check all that apply)</span></label>
+        
+                    <label><input type="checkbox" id="check-dur" name="check-dur" value="1"> Web Design</label>
+                    <label><input type="checkbox" id="check-use" name="check-use" value="2"> Hosting</label>
+                    <label><input type="checkbox" id="check-per" name="check-per" value="3"> Data bases</label>
+                </div>
+                <div class="form-submit">
+                    <button type="submit">Send it to me!</button>
+                </div>
+            </form>
+        </div>
     </main>
 
     <footer>

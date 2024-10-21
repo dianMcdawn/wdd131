@@ -176,6 +176,11 @@ main h3 {
 
 /* SERVICES */
 
+.services-section h2{
+    grid-column: 1/3;
+    text-align: center;
+}
+
 .services-filter {
     display: flex;
     justify-content: space-around;
@@ -183,26 +188,12 @@ main h3 {
 
 .services-filter p{
     background: var(--main-color);
-    padding: 0 1rem;
+    padding: .3rem 1rem;
     color: #fff;
     width: 100px;
     text-align: center;
     cursor: pointer;
 }
-/*
-.services-filter li {
-    background: var(--main-color);
-    padding: 0 1rem;
-    width: 100px;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.services-filter li a {
-    color: var(--default-font-color);
-    text-decoration: none;
-}*/
 
 .services {
     display: grid;
@@ -243,6 +234,96 @@ main h3 {
     max-width: 350px;
     height: auto;
     box-shadow: 1px 1px 5px var(--primary-font-color);
+}
+
+/* FORM */
+.contact{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.contact h2{
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.contact .contact-content {
+    grid-column: 1/2;
+}
+
+.contact .contact-form {
+    grid-column: 2/3;
+}
+
+form {
+    background-color: var(--thirdiary-color);
+    padding: .5rem;
+    border-radius: .5rem;
+    max-width: 400px;
+}
+
+.form-element{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    padding: .7rem;
+}
+
+.form-element .title-label{
+    font-weight: bold;
+    padding-bottom: .3rem;
+}
+
+.form-radio{
+    display: grid;
+    width: 100%;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.radio-item{
+    display: grid;
+    text-align:center;
+}
+
+.check-apply{
+    font-style: italic;
+}
+
+.optional{
+    font-weight: normal;
+    color: var(--thirdiary-font-color);
+}
+/* Form elements */
+select {
+    padding: .3rem .1rem;
+    border-color: transparent;
+}
+
+input {
+    padding: .3rem .1rem;
+    border-color: transparent;
+}
+
+input[type="radio"]{
+    transform: scale(1.5);
+}
+
+input[type="checkbox"]{
+    transform: scale(1.5);
+    border-radius: 0;
+}
+
+textarea {
+    padding: .3rem .1rem;
+    border-color: transparent;
+    min-height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 /* FOOTER */

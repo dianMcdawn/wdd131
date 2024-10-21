@@ -100,21 +100,21 @@ function renderAllservices(services) {
 
 //showing all simple services
 function renderSimpleServices(services) {
-	let list = services.filter(function (dat) { return type = 'Simple'; });
+	let list = services.filter(function (dat) { return dat.type == 'Simple'; });
 	const html = list.map(serviceCard);
 	album.innerHTML = html.join("");
 }
 
 //showing all simple services
 function renderAdvancedServices(services) {
-	let list = services.filter(function (dat) { return type = 'advanced'; });
+	let list = services.filter(function (dat) { return dat.type == 'Advanced'; });
 	const html = list.map(serviceCard);
 	album.innerHTML = html.join("");
 }
 
 //showing all simple services
 function renderFullServices(services) {
-	let list = services.filter(function (dat) { return type = 'Full'; });
+	let list = services.filter(function (dat) { return dat.type == 'Full'; });
 	const html = list.map(serviceCard);
 	album.innerHTML = html.join("");
 }
