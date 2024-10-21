@@ -97,7 +97,7 @@ header h2 {
     font-weight: 700;
     text-decoration: none;
     text-align: right;
-    padding: 0;
+    padding: 0 1rem 0 0;
 }
 
 #menu::before {
@@ -236,24 +236,25 @@ main h3 {
     box-shadow: 1px 1px 5px var(--primary-font-color);
 }
 
-/* FORM */
+/* CONTACT FORM */
 .contact{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-items: center;
 }
 
 .contact h2{
-    grid-column: 1/3;
     text-align: center;
 }
 
-.contact .contact-content {
-    grid-column: 1/2;
+.contact-content iframe {
+    width: 100%;
+    min-width: 400px;
+    width: 80%;
+    min-height: 300px;
+    border: 0;
 }
 
-.contact .contact-form {
-    grid-column: 2/3;
-}
 
 form {
     background-color: var(--thirdiary-color);
@@ -325,6 +326,39 @@ button {
     font-size: 1rem;
     font-weight: bold;
 }
+
+/* About */
+
+.about-me {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.about-me .left-section {
+    grid-column: 1/2;
+    padding: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.about-me h2 {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.about-me .righ-section {
+    grid-column: 2/3;
+    padding: 1rem;
+}
+
+.about-me img {
+    height: 200px;
+    width: auto;
+}
+
 
 /* FOOTER */
 

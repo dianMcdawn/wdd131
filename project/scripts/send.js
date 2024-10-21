@@ -1,6 +1,6 @@
 // checking if a parameters arrives
 const urlParams = new URLSearchParams(window.location.search);
-const product = urlParams.get('product');
+const product = urlParams.get('name');
 
 // Initialize display element variable
 const visitsDisplay = document.querySelector(".emails");
